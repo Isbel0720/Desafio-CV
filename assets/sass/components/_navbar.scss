@@ -1,0 +1,25 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    height: 1270px;
+}
+
+.navigation__menu{
+    background-color: $aqua-green;
+    height: 4730px;
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: center;
+    color: $blue-grey;
+    font-weight: $negro;
+    position: fixed;
+}
+
+.img-cv{
+    padding-top: 200px;
+}
+
+.img__pic{
+    width: 150px;
+    border-radius: 50%;
+}
