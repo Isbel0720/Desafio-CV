@@ -9677,6 +9677,7 @@ h2 {
   font-size: 40px;
   font-weight: 900;
   padding-bottom: 60px;
+  padding-top: 60px;
   color: #2d3047;
 }
 
@@ -9699,17 +9700,27 @@ p {
   height: 1270px;
 }
 
-.navigation__menu {
-  background-color: #7cea9c;
-  height: 4730px;
-  padding-right: 0px;
-  margin-right: 0px;
-  text-align: center;
-  color: #2d3047;
-  font-weight: 900;
-  position: fixed;
+@media (min-width: 1200px) {
+  .navigation__menu {
+    background-color: #7cea9c;
+    height: 4730px;
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: center;
+    color: #2d3047;
+    font-weight: 900;
+    position: fixed;
+  }
 }
-
+@media (min-width: 375px) {
+  .navigation__menu {
+    background-color: #7cea9c;
+    padding-right: 0px;
+    margin-right: 0px;
+    color: #2d3047;
+    font-weight: 900;
+  }
+}
 .img-cv {
   padding-top: 200px;
 }
