@@ -9656,13 +9656,62 @@ h3 {
   }
 }
 body {
-  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
 body {
-  margin: 0;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 h1 {
@@ -9670,6 +9719,7 @@ h1 {
   font-size: 70px;
   font-weight: 900;
   color: #2d3047;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -9694,18 +9744,12 @@ p {
   color: #2d3047;
 }
 
-.container-fluid {
-  margin: 0px;
-  padding: 0px;
-  height: 1270px;
-}
-
 @media (min-width: 1200px) {
   .navigation__menu {
     background-color: #7cea9c;
     height: 4730px;
-    padding-right: 0px;
-    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: #2d3047;
     font-weight: 900;
@@ -9715,8 +9759,8 @@ p {
 @media (min-width: 375px) {
   .navigation__menu {
     background-color: #7cea9c;
-    padding-right: 0px;
-    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #2d3047;
     font-weight: 900;
   }
@@ -9730,10 +9774,12 @@ p {
   border-radius: 50%;
 }
 
-.about__me {
-  position: relative;
-  top: -1073px;
-  left: 200px;
+.about {
+  position: absolute;
+  left: 288px;
+  top: 239px;
+  padding-right: 200px;
+  line-height: 25px;
 }
 
 .icons {
@@ -9744,35 +9790,42 @@ p {
   padding-right: 10px;
 }
 
-.experience__cv {
-  position: relative;
-  left: 200px;
-  top: -883px;
+.direction {
+  padding-bottom: 30px;
 }
 
-.education__Isbel {
-  position: relative;
-  left: 200px;
-  top: -730px;
-}
-
-time {
-  float: right;
+.experience {
+  position: absolute;
+  left: 288px;
+  top: 600px;
+  padding-right: 200px;
+  line-height: 25px;
 }
 
 .experience__description1 {
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 25px;
 }
 
 .experience__description2 {
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 25px;
 }
 
 .experience__description3 {
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.education {
+  position: absolute;
+  left: 288px;
+  top: 1500px;
+  padding-right: 200px;
+  line-height: 25px;
 }
 
 .education1 {
@@ -9787,14 +9840,12 @@ time {
   margin-bottom: 70px;
 }
 
-.line {
-  height: 1px;
-}
-
-.abilities__tools {
-  position: relative;
-  left: 200px;
-  top: -584px;
+.abilities {
+  position: absolute;
+  left: 288px;
+  top: 2350px;
+  padding-right: 200px;
+  line-height: 25px;
 }
 
 .abilities__tools1 {
@@ -9805,10 +9856,19 @@ time {
   margin-bottom: 60px;
 }
 
-.contact__person {
-  position: relative;
-  left: 200px;
-  top: -515px;
+time {
+  float: right;
+}
+
+.line {
+  height: 1px;
+}
+
+.contact {
+  position: absolute;
+  left: 288px;
+  top: 3000px;
+  padding-right: 200px;
 }
 
 .formgroup {

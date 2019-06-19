@@ -1,15 +1,10 @@
-.container-fluid{
-    margin: 0px;
-    padding: 0px;
-    height: 1270px;
-}
 
 @media (min-width:1200px){
     .navigation__menu{
         background-color: $aqua-green;
         height: 4730px;
-        padding-right: 0px;
-        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
         text-align: center;
         color: $blue-grey;
         font-weight: $negro;
@@ -20,11 +15,10 @@
 @media (min-width: 375px){
     .navigation__menu{
         background-color: $aqua-green;
-        padding-right: 0px;
-        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
         color: $blue-grey;
         font-weight: $negro;
-       
     }
 }
 

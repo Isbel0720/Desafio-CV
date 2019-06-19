@@ -1,32 +1,55 @@
-.experience__cv{
-    position: relative;
-    left: 200px;
-    top: -883px;
+.about{
+    position: absolute;
+    left: 288px;
+    top: 239px;
+    padding-right: 200px;
+    line-height : 25px;
 }
 
-.education__Isbel{
-    position: relative;
-    left: 200px;
-    top: -730px;
+.icons{
+    margin-top: 70px;
 }
 
-time{
-    float: right;
+.fab{
+    padding-right: 10px;
+}
+
+.direction{
+    padding-bottom: 30px;
+}
+
+.experience{
+    position: absolute;
+    left: 288px;
+    top: 600px;
+    padding-right: 200px;
+    line-height: 25px;
 }
 
 .experience__description1{
     margin-top: 50px;
     margin-bottom: 50px;
+    line-height: 25px;
 }
 
 .experience__description2{
     margin-top: 50px;
     margin-bottom: 50px;
+    line-height: 25px;
 }
 
 .experience__description3{
     margin-top: 50px;
     margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.education{
+    position: absolute;
+    left: 288px;
+    top: 1500px;
+    padding-right: 200px;
+    line-height: 25px;
 }
 
 .education1{
@@ -41,14 +64,12 @@ time{
     margin-bottom: 70px;
 }
 
-.line{
-    height: 1px;
-}
-
-.abilities__tools{
-    position: relative;
-    left: 200px;
-    top: -584px;
+.abilities{
+    position: absolute;
+    left: 288px;
+    top: 2350px;
+    padding-right: 200px;
+    line-height: 25px;
 }
 
 .abilities__tools1{
@@ -57,4 +78,12 @@ time{
 
 .abilities__tools2{
     margin-bottom: 60px;
+}
+
+time{
+    float: right;
+}
+
+.line{
+    height: 1px;
 }
