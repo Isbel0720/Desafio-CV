@@ -1,9 +1,21 @@
-.about{
-    position: absolute;
-    left: 288px;
-    top: 239px;
-    padding-right: 200px;
-    line-height : 25px;
+
+@media (min-width: 375px){
+    .about{
+        position: absolute;
+        left: 288px;
+        top: 150px;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 1200px){
+    .about{
+        position: absolute;
+        left: 288px;
+        top: 239px;
+        padding-right: 200px;
+        line-height : 25px;
+    }
 }
 
 .icons{
@@ -18,13 +30,26 @@
     padding-bottom: 30px;
 }
 
-.experience{
-    position: absolute;
-    left: 288px;
-    top: 600px;
-    padding-right: 200px;
-    line-height: 25px;
+@media (min-width: 375px){
+    .experience{
+        position: absolute;
+        left: 288px;
+        top: 762px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
 }
+
+@media (min-width: 1200px){
+    .experience{
+        position: absolute;
+        left: 288px;
+        top: 600px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
+}
+
 
 .experience__description1{
     margin-top: 50px;
@@ -44,13 +69,25 @@
     line-height: 25px;
 }
 
-.education{
-    position: absolute;
-    left: 288px;
-    top: 1500px;
-    padding-right: 200px;
-    line-height: 25px;
+@media (min-width: 375px){
+    .education{
+        position: absolute;
+        left: 288px;
+        top: 2000px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
 }
+@media (min-width: 1200px){
+    .education{
+        position: absolute;
+        left: 288px;
+        top: 1620px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
+}
+
 
 .education1{
     margin-bottom: 70px;
@@ -64,13 +101,26 @@
     margin-bottom: 70px;
 }
 
-.abilities{
-    position: absolute;
-    left: 288px;
-    top: 2350px;
-    padding-right: 200px;
-    line-height: 25px;
+@media (min-width: 375px){
+    .abilities{
+        position: absolute;
+        left: 288px;
+        top: 2500px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
 }
+
+@media (min-width: 1200px){
+    .abilities{
+        position: absolute;
+        left: 288px;
+        top: 2250px;
+        padding-right: 200px;
+        line-height: 25px;
+    }
+}
+
 
 .abilities__tools1{
     margin-bottom: 60px;

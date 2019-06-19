@@ -1,15 +1,30 @@
-.contact{
-    position: absolute;
-    left: 288px;
-    top: 3000px;
-    padding-right: 200px;
+@media (min-width: 375px){
+    .contact{
+        position: absolute;
+        left: 288px;
+        top: 3000px;
+        line-height : 25px;
+    }
+}
+
+@media (min-width: 1200px){
+    .contact{
+        position: absolute;
+        left: 288px;
+        top: 2800px;
+        padding-right: 200px;
+        line-height : 25px;
+    }
 }
 
 .formgroup{
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: $Roboto;
 }
 
+
 .label{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: $Roboto;
 }

@@ -9720,6 +9720,7 @@ h1 {
   font-weight: 900;
   color: #2d3047;
   padding-bottom: 30px;
+  line-height: 72px;
 }
 
 h2 {
@@ -9736,6 +9737,8 @@ h3 {
   font-size: 30px;
   padding-bottom: 60px;
   color: #2d3047;
+  padding-bottom: 30px;
+  line-height: 25px;
 }
 
 p {
@@ -9745,24 +9748,25 @@ p {
 }
 
 @media (min-width: 1200px) {
-  .navigation__menu {
+  .navigation {
     background-color: #7cea9c;
     height: 4730px;
-    padding-left: 20px;
     padding-right: 20px;
     text-align: center;
     color: #2d3047;
     font-weight: 900;
     position: fixed;
+    font-family: "Lato", "sans-serif";
   }
 }
 @media (min-width: 375px) {
-  .navigation__menu {
+  .navigation {
     background-color: #7cea9c;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 25px;
+    text-align: center;
     color: #2d3047;
     font-weight: 900;
+    position: fixed;
   }
 }
 .img-cv {
@@ -9774,14 +9778,23 @@ p {
   border-radius: 50%;
 }
 
-.about {
-  position: absolute;
-  left: 288px;
-  top: 239px;
-  padding-right: 200px;
-  line-height: 25px;
+@media (min-width: 375px) {
+  .about {
+    position: absolute;
+    left: 288px;
+    top: 150px;
+    line-height: 25px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .about {
+    position: absolute;
+    left: 288px;
+    top: 239px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
+}
 .icons {
   margin-top: 70px;
 }
@@ -9794,14 +9807,24 @@ p {
   padding-bottom: 30px;
 }
 
-.experience {
-  position: absolute;
-  left: 288px;
-  top: 600px;
-  padding-right: 200px;
-  line-height: 25px;
+@media (min-width: 375px) {
+  .experience {
+    position: absolute;
+    left: 288px;
+    top: 762px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .experience {
+    position: absolute;
+    left: 288px;
+    top: 600px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
+}
 .experience__description1 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -9820,14 +9843,24 @@ p {
   line-height: 25px;
 }
 
-.education {
-  position: absolute;
-  left: 288px;
-  top: 1500px;
-  padding-right: 200px;
-  line-height: 25px;
+@media (min-width: 375px) {
+  .education {
+    position: absolute;
+    left: 288px;
+    top: 2000px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .education {
+    position: absolute;
+    left: 288px;
+    top: 1620px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
+}
 .education1 {
   margin-bottom: 70px;
 }
@@ -9840,14 +9873,24 @@ p {
   margin-bottom: 70px;
 }
 
-.abilities {
-  position: absolute;
-  left: 288px;
-  top: 2350px;
-  padding-right: 200px;
-  line-height: 25px;
+@media (min-width: 375px) {
+  .abilities {
+    position: absolute;
+    left: 288px;
+    top: 2500px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .abilities {
+    position: absolute;
+    left: 288px;
+    top: 2250px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
+}
 .abilities__tools1 {
   margin-bottom: 60px;
 }
@@ -9864,20 +9907,32 @@ time {
   height: 1px;
 }
 
-.contact {
-  position: absolute;
-  left: 288px;
-  top: 3000px;
-  padding-right: 200px;
+@media (min-width: 375px) {
+  .contact {
+    position: absolute;
+    left: 288px;
+    top: 3000px;
+    line-height: 25px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .contact {
+    position: absolute;
+    left: 288px;
+    top: 2800px;
+    padding-right: 200px;
+    line-height: 25px;
+  }
+}
 .formgroup {
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: "Lato", "sans-serif";
 }
 
 .label {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-family: "Lato", "sans-serif";
 }
 
 /*# sourceMappingURL=main.css.map */

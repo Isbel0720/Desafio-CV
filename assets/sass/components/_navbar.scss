@@ -1,27 +1,28 @@
 
-@media (min-width:1200px){
-    .navigation__menu{
-        background-color: $aqua-green;
-        height: 4730px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        color: $blue-grey;
-        font-weight: $negro;
-        position: fixed;
+    @media (min-width: 1200px) {
+        .navigation{
+            background-color: $aqua-green;
+            height: 4730px;
+            padding-right: 20px;
+            text-align: center;
+            color: $blue-grey;
+            font-weight: $negro;
+            position: fixed;
+            font-family: $Roboto;
+        }
     }
-}
 
-@media (min-width: 375px){
-    .navigation__menu{
-        background-color: $aqua-green;
-        padding-left: 20px;
-        padding-right: 20px;
-        color: $blue-grey;
-        font-weight: $negro;
+    @media (min-width: 375px){
+        .navigation{
+            background-color: $aqua-green;
+            padding-right: 25px;
+            text-align: center;
+            color: $blue-grey;
+            font-weight: $negro;
+            position: fixed;
+        }
     }
-}
-
+    
 
 .img-cv{
     padding-top: 200px;
